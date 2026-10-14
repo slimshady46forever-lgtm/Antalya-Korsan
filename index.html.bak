@@ -70,7 +70,7 @@ window.WA_NUMBER = "905316922578";
       "url": "https://antalyakorsan.com/",
       "telephone": "+905316922578",
       "priceRange": "₺₺",
-      "address": {"@type":"PostalAddress","addressLocality":"Antalya","addressRegion":"Antalya","addressCountry":"TR"},
+      "address": {"@type": "PostalAddress", "streetAddress": "Antalya Havalimanı Dış Hatlar Terminali 2", "addressLocality": "Yeşilköy Mahallesi, Muratpaşa", "addressRegion": "Antalya", "postalCode": "07230", "addressCountry": "TR"},
       "geo": {"@type":"GeoCoordinates","latitude":36.8969,"longitude":30.7133},
       "areaServed": [
         {"@type":"City","name":"Antalya"},
@@ -421,6 +421,7 @@ dialog#cookieDialog .dialog-close:hover{color:#fff}
   *,*:before,*:after{transition-duration:.01ms!important}
 }
 </style>
+  <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
 
@@ -458,7 +459,7 @@ dialog#cookieDialog .dialog-close:hover{color:#fff}
           </select>
         </div>
 
-        <a class="btn" data-wa="header" href="#">WhatsApp'tan Fiyat Al ↗</a>
+        <a class="btn" data-wa="header" href="#" data-i18n="common.waShort">WhatsApp'tan Fiyat Al ↗</a>
       </div>
     </nav>
   </div>
@@ -483,7 +484,7 @@ dialog#cookieDialog .dialog-close:hover{color:#fff}
       <span class="hero-badge" data-i18n="hero.badge5">Nakit ödeme</span>
     </div>
     <div class="actions">
-      <a class="btn" data-wa="hero" href="#">WhatsApp'tan Fiyat Al →</a>
+      <a class="btn" data-wa="hero" href="#" data-i18n="common.waHero">WhatsApp'tan Fiyat Al →</a>
       <a class="btn outline" href="#fiyatlar" data-i18n="hero.pricesCta">Fiyat Hesapla</a>
     </div>
     <div class="hero-dots" aria-label="Kapak görselleri">
@@ -892,7 +893,7 @@ dialog#cookieDialog .dialog-close:hover{color:#fff}
         ogLocale: "tr_TR"
       },
       a11y: { skip: "İçeriğe geç" },
-      nav: { services:"Hizmetler", prices:"Fiyat Hesapla", routes:"Güzergâhlar", fleet:"Araçlarımız", faq:"S.S.S.", blog:"Blog" },
+      nav: { services:"Hizmetler", prices:"Fiyat Hesapla", routes:"Güzergâhlar", fleet:"Araçlarımız", faq:"S.S.S.", blog:"Blog", about:"Hakkımızda" },
       hero: {
         eyebrow:"ANTALYA • LİSANSLI VIP TRANSFER",
         h1:'Antalya\'da Güvenli ve <em>Sabit Fiyatlı</em> Transfer.',
@@ -982,7 +983,7 @@ dialog#cookieDialog .dialog-close:hover{color:#fff}
         "24h":"7/24 hizmet veriyoruz", rights:"Tüm hakları saklıdır.",
         tags:"Antalya • Havalimanı Transfer • VIP Ulaşım"
       },
-      common:{ wa:"WhatsApp", call:"Hemen Ara", callMobile:"Ara", pricesMobile:"Fiyat", priceAsk:"Fiyat Al →" },
+      common:{ wa:"WhatsApp", call:"Hemen Ara", callMobile:"Ara", pricesMobile:"Fiyat", priceAsk:"Fiyat Al →", waShort:"WhatsApp'tan Fiyat Al ↗", waHero:"WhatsApp'tan Fiyat Al →" },
       wa:{
         header:"Merhaba, Antalya transfer hizmeti hakkında fiyat almak istiyorum.",
         hero:"Merhaba, transfer için fiyat almak istiyorum.\nTarih: \nSaat: \nYolcu sayısı: \nVarış noktası: ",
@@ -1008,7 +1009,7 @@ dialog#cookieDialog .dialog-close:hover{color:#fff}
         ogLocale:"en_US"
       },
       a11y:{ skip:"Skip to content" },
-      nav:{ services:"Services", prices:"Fare Calculator", routes:"Routes", fleet:"Our Fleet", faq:"FAQ", blog:"Blog" },
+      nav:{ services:"Services", prices:"Fare Calculator", routes:"Routes", fleet:"Our Fleet", faq:"FAQ", blog:"Blog", about:"About Us" },
       hero:{
         eyebrow:"ANTALYA • LICENSED VIP TRANSFER",
         h1:'Safe and <em>Fixed-Price</em> Transfer in Antalya.',
@@ -1098,7 +1099,7 @@ dialog#cookieDialog .dialog-close:hover{color:#fff}
         "24h":"We are available 24/7", rights:"All rights reserved.",
         tags:"Antalya • Airport Transfer • VIP Transport"
       },
-      common:{ wa:"WhatsApp", call:"Call Now", callMobile:"Call", pricesMobile:"Prices", priceAsk:"Get a Quote →" },
+      common:{ wa:"WhatsApp", call:"Call Now", callMobile:"Call", pricesMobile:"Prices", priceAsk:"Get a Quote →", waShort:"Get a Quote on WhatsApp ↗", waHero:"Get a Quote on WhatsApp →" },
       wa:{
         header:"Hello, I'd like a quote for Antalya transfer service.",
         hero:"Hello, I'd like a quote for transfer.\nDate: \nTime: \nPassengers: \nDestination: ",
@@ -1124,7 +1125,7 @@ dialog#cookieDialog .dialog-close:hover{color:#fff}
         ogLocale:"ru_RU"
       },
       a11y:{ skip:"Перейти к содержимому" },
-      nav:{ services:"Услуги", prices:"Калькулятор", routes:"Маршруты", fleet:"Автопарк", faq:"Вопросы", blog:"Блог" },
+      nav:{ services:"Услуги", prices:"Калькулятор", routes:"Маршруты", fleet:"Автопарк", faq:"Вопросы", blog:"Блог", about:"О нас" },
       hero:{
         eyebrow:"АНТАЛИЯ • ЛИЦЕНЗИРОВАННЫЙ VIP-ТРАНСФЕР",
         h1:'Безопасный трансфер в Анталии по <em>фиксированной цене</em>.',
@@ -1214,7 +1215,7 @@ dialog#cookieDialog .dialog-close:hover{color:#fff}
         "24h":"Мы работаем 24/7", rights:"Все права защищены.",
         tags:"Анталия • Трансфер из аэропорта • VIP-транспорт"
       },
-      common:{ wa:"WhatsApp", call:"Позвонить", callMobile:"Звонок", pricesMobile:"Цены", priceAsk:"Узнать цену →" },
+      common:{ wa:"WhatsApp", call:"Позвонить", callMobile:"Звонок", pricesMobile:"Цены", priceAsk:"Узнать цену →", waShort:"Узнать цену в WhatsApp ↗", waHero:"Узнать цену в WhatsApp →" },
       wa:{
         header:"Здравствуйте, хочу узнать цену на трансфер в Анталии.",
         hero:"Здравствуйте, хочу узнать цену на трансфер.\nДата: \nВремя: \nПассажиры: \nПункт назначения: ",
@@ -1240,7 +1241,7 @@ dialog#cookieDialog .dialog-close:hover{color:#fff}
         ogLocale:"de_DE"
       },
       a11y:{ skip:"Zum Inhalt springen" },
-      nav:{ services:"Leistungen", prices:"Preis berechnen", routes:"Routen", fleet:"Unsere Flotte", faq:"FAQ", blog:"Blog" },
+      nav:{ services:"Leistungen", prices:"Preis berechnen", routes:"Routen", fleet:"Unsere Flotte", faq:"FAQ", blog:"Blog", about:"Über uns" },
       hero:{
         eyebrow:"ANTALYA • LIZENZIERTER VIP-TRANSFER",
         h1:'Sicherer Transfer in Antalya zum <em>Festpreis</em>.',
@@ -1330,7 +1331,7 @@ dialog#cookieDialog .dialog-close:hover{color:#fff}
         "24h":"Wir sind 24/7 erreichbar", rights:"Alle Rechte vorbehalten.",
         tags:"Antalya • Flughafentransfer • VIP-Transport"
       },
-      common:{ wa:"WhatsApp", call:"Jetzt anrufen", callMobile:"Anrufen", pricesMobile:"Preise", priceAsk:"Preis anfragen →" },
+      common:{ wa:"WhatsApp", call:"Jetzt anrufen", callMobile:"Anrufen", pricesMobile:"Preise", priceAsk:"Preis anfragen →", waShort:"Preis per WhatsApp anfragen ↗", waHero:"Preis per WhatsApp anfragen →" },
       wa:{
         header:"Hallo, ich möchte ein Angebot für den Transfer-Service in Antalya.",
         hero:"Hallo, ich möchte ein Angebot für den Transfer.\nDatum: \nUhrzeit: \nPassagiere: \nZiel: ",
@@ -1960,5 +1961,6 @@ dialog#cookieDialog .dialog-close:hover{color:#fff}
    ============================================================ */
 document.getElementById('year').textContent = new Date().getFullYear();
 </script>
+  <script src="/assets/site.js" defer></script>
 </body>
 </html>
