@@ -1,137 +1,29 @@
 #!/bin/bash
 
-# ==============================================================================
-# ANTALYA KORSAN - SEO ROUTE PAGE GENERATOR
-# This script generates dedicated, SEO-optimized HTML landing pages for each
-# popular route. It includes specific Schema.org markup, meta tags, and content.
-# ==============================================================================
+# The file you want to modify
+FILE="index.html"
 
-# Define the routes (Matches the hrefs in your index.html)
-ROUTES=(
-  "kundu:Kundu"
-  "lara:Lara"
-  "side:Side"
-  "belek:Belek"
-  "kemer:Kemer"
-  "alanya:Alanya"
-  "manavgat:Manavgat"
-  "konyaalti:Konyaaltı"
-  "kaleici:Kaleiçi"
-  "muratpasa:Muratpaşa"
-  "kepez:Kepez"
-  "dosemealti:Döşemealtı"
-  "aksu:Aksu"
-  "serik:Serik"
-  "kizilagac:Kızılağaç"
-  "titreyengol:Titreyengöl"
-  "okurcalar:Okurcalar"
-  "avsallar:Avsallar"
-  "konakli:Konaklı"
-  "mahmutlar:Mahmutlar"
-  "gazipasa:Gazipaşa"
-  "belconti:Belconti"
-  "beldibi:Beldibi"
-  "goynuk:Göynük"
-)
+# Check if the file exists
+if [ ! -f "$FILE" ]; then
+    echo "Error: $FILE not found. Please run this script in the root directory of your website."
+    exit 1
+fi
 
-echo "🚀 Starting SEO page generation for Antalya Korsan..."
+# Create a backup just in case
+cp "$FILE" "$FILE.bak"
+echo "Backup created as $FILE.bak"
 
-for ROUTE in "${ROUTES[@]}"; do
-  # Split the slug and the display name
-  SLUG="${ROUTE%%:*}"
-  NAME="${ROUTE##*:}"
-  
-  FILENAME="${SLUG}.html"
-  
-  echo "📄 Generating $FILENAME for $NAME..."
+# Update the lines to point to logo.ico and change the type to image/x-icon
+# This targets lines containing rel="icon", rel="shortcut icon", or rel="apple-touch-icon"
+sed -i '/rel="icon"/ s|logo\.png|logo.ico|g; s|type="image/png"|type="image/x-icon"|g' "$FILE"
+sed -i '/rel="shortcut icon"/ s|logo\.png|logo.ico|g; s|type="image/png"|type="image/x-icon"|g' "$FILE"
+sed -i '/rel="apple-touch-icon"/ s|logo\.png|logo.ico|g' "$FILE"
 
-  # Generate the HTML file using a heredoc
-  cat <<EOF > "$FILENAME"
-<!doctype html>
-<html lang="tr">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Antalya Havalimanı $NAME VIP Transfer | Sabit Fiyatlı Lisanslı Servis</title>
-<meta name="description" content="Antalya Havalimanı'ndan $NAME bölgesine lisanslı, sigortalı ve sabit fiyatlı VIP transfer hizmeti. 7/24 WhatsApp ile anında fiyat teklifi alın. Nakit ödeme.">
-<meta name="robots" content="index,follow">
-<link rel="canonical" href="https://antalyakorsan.com/$FILENAME">
+echo "Successfully updated $FILE to use logo.ico"
 
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Antalya Havalimanı $NAME VIP Transfer | Sabit Fiyatlı">
-<meta property="og:description" content="Antalya Havalimanı'ndan $NAME bölgesine konforlu, güvenli ve sabit fiyatlı VIP transfer. Hemen fiyat alın.">
-<meta property="og:url" content="https://antalyakorsan.com/$FILENAME">
-<meta property="og:image" content="https://antalyakorsan.com/logo.png">
-
-<!-- Schema.org for Specific Route -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Antalya Havalimanı $NAME VIP Transfer",
-  "description": "Antalya Havalimanı'ndan $NAME bölgesine lisanslı, sigortalı ve sabit fiyatlı VIP transfer hizmeti.",
-  "provider": {
-    "@type": "LocalBusiness",
-    "name": "Antalya Korsan VIP Transfer",
-    "image": "https://antalyakorsan.com/logo.png",
-    "telephone": "+905316922578",
-    "priceRange": "₺₺"
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "$NAME, Antalya"
-  },
-  "serviceType": "Havalimanı Transferi"
-}
-</script>
-
-<!-- Reuse your existing CSS -->
-<link rel="stylesheet" href="/assets/site.css">
-<style>
-  /* Fallback styling to ensure the page looks good immediately */
-  body { background: #101114; color: #fff; font-family: Arial, Helvetica, sans-serif; padding: 40px 20px; max-width: 800px; margin: 0 auto; line-height: 1.7; }
-  h1 { color: #ffcc00; font-size: 32px; margin-bottom: 20px; }
-  h2 { color: #ffcc00; font-size: 24px; margin-top: 40px; border-bottom: 1px solid #333; padding-bottom: 10px; }
-  .btn { display: inline-block; padding: 16px 28px; background: #ffcc00; color: #101114; text-decoration: none; font-weight: 800; border-radius: 9px; margin-top: 20px; transition: 0.3s; }
-  .btn:hover { background: #ffe061; transform: translateY(-3px); box-shadow: 0 0 16px #ffcc0088; }
-  .back-link { display: block; margin-top: 40px; color: #a9a9ac; text-decoration: none; }
-  .back-link:hover { color: #ffcc00; }
-  ul { padding-left: 20px; color: #b4b4b9; }
-  li { margin-bottom: 10px; }
-</style>
-</head>
-<body>
-
-  <a href="/" class="back-link">← Ana Sayfaya Dön</a>
-  
-  <h1>Antalya Havalimanı - $NAME VIP Transfer Hizmeti</h1>
-  
-  <p>Antalya Havalimanı'ndan <strong>$NAME</strong> bölgesine lisanslı, sigortalı ve profesyonel şoförler eşliğinde <strong>sabit fiyatlı VIP transfer</strong> hizmeti sunuyoruz. Trafik yoğunluğu veya güzergâh değişikliği fiyatımızı etkilemez, sürpriz ücretlerle karşılaşmazsınız.</p>
-
-  <p>$NAME bölgesine konforlu ve güvenli bir yolculuk için hemen WhatsApp üzerinden iletişime geçin. 7/24 hizmetinizdeyiz.</p>
-
-  <h2>Neden Antalya Korsan VIP Transfer?</h2>
-  <ul>
-    <li><strong>Sabit Fiyat Garantisi:</strong> Trafikte veya beklemede fiyat değişmez.</li>
-    <li><strong>Lisanslı ve Sigortalı:</strong> Tüm araçlarımız tam sigortalıdır ve yasal düzenlemelere uygundur.</li>
-    <li><strong>Profesyonel Şoförler:</strong> Deneyimli ve güler yüzlü şoförlerimizle güvenli yolculuk.</li>
-    <li><strong>Uçuş Takibi:</strong> Uçuşunuz gecikirse, şoförünüz sizi bekler. Ek ücret alınmaz.</li>
-    <li><strong>Nakit Ödeme:</strong> Ödemeyi araç içinde ₺, USD veya EUR olarak nakit yapabilirsiniz.</li>
-  </ul>
-
-  <h2>$NAME Bölgesine Transfer Ücreti</h2>
-  <p>$NAME bölgesine olan mesafeye göre kilometre başına sabit ücretimiz uygulanır. Kesin fiyat, araç tipi ve yolcu sayısına göre WhatsApp üzerinden anında teyit edilir. Fiyatlarımız nettir, gizli ücret yoktur.</p>
-
-  <a href="https://wa.me/905316922578?text=Merhaba%2C%20Antalya%20Havaliman%C4%B1%20$NAME%20transfer%20i%C3%A7in%20fiyat%20almak%20istiyorum." class="btn" target="_blank" rel="noopener">WhatsApp'tan Fiyat Al →</a>
-
-  <p style="margin-top: 40px; font-size: 13px; color: #666;">© 2026 Antalya Korsan VIP Transfer. Tüm hakları saklıdır.</p>
-
-</body>
-</html>
-EOF
-
-done
-
-echo "✅ All SEO pages generated successfully!"
-echo "➡️ You can now commit and push these files to GitHub to trigger your deployment."
+# --- OPTIONAL: Uncomment the lines below to automatically commit and push to GitHub ---
+# echo "Pushing changes to GitHub..."
+# git add "$FILE"
+# git commit -m "Update favicon to logo.ico"
+# git push origin main  # Change 'main' to 'master' if your default branch is master
+# echo "Changes pushed!"
