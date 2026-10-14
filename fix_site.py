@@ -60,6 +60,22 @@ def detect_lang(content: str, path: Path) -> str:
             return l
     return "tr"
 
+
+def add_shared_assets(content: str) -> str:
+    if '/assets/site.css' in content:
+        content = content.replace('/route.css', '/assets/site.css') if '/route.css' in content else content
+    else:
+        if '/route.css' in content:
+            content = content.replace('<link rel="stylesheet" href="/route.css">', '<link rel="stylesheet" href="/assets/site.css">', 1)
+        elif '</head>' in content:
+            content = content.replace('</head>', '  <link rel="stylesheet" href="/assets/site.css">\n</head>', 1)
+
+    if '/assets/site.js' not in content and '</body>' in content:
+        content = content.replace('</body>', '  <script src="/assets/site.js" defer></script>\n</body>', 1)
+
+    return content
+
+
 def is_route_page(path: Path) -> bool:
     return (
         path.parent == ROOT
@@ -465,6 +481,7 @@ def process_html(path: Path) -> None:
 
     # universal
     before = content
+    content = add_shared_assets(content)
     content = fix_ga_ids(content);        fixes.append("GA-IDs")
     content = decode_json_ld_entities(content); fixes.append("JSON-LD")
     content = fix_user_data(content);     fixes.append("user_data")

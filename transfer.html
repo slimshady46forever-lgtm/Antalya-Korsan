@@ -198,6 +198,7 @@ dialog#cookieDialog .dialog-close{position:absolute;top:14px;right:14px;backgrou
   *,*:before,*:after{transition-duration:.01ms!important}
 }
 </style>
+  <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
 
@@ -362,7 +363,7 @@ dialog#cookieDialog .dialog-close{position:absolute;top:14px;right:14px;backgrou
     </span>
     <a href="/">antalyakorsan.com</a>
   </div>
-<div class="wrap" style="margin-top:14px;padding-top:14px;border-top:1px solid #1c1d21;display:flex;gap:18px;justify-content:center;flex-wrap:wrap;font-size:12px;text-align:center"><a href="https://wa.me/905316922578" target="_blank" rel="noopener" style="color:#ffcc00;font-weight:800">WhatsApp: +90 531 692 25 78</a><a href="https://wa.me/639752611743" target="_blank" rel="noopener" style="color:#a9a9ac">Alt hat: +63 975 261 1743</a></div>
+<div class="wrap" style="margin-top:14px;padding-top:14px;border-top:1px solid #1c1d21;display:flex;gap:18px;justify-content:center;flex-wrap:wrap;font-size:12px;text-align:center"><a href="https://wa.me/905316922578" target="_blank" rel="noopener" style="color:#ffcc00;font-weight:800" data-i18n="footer.waLabel">WhatsApp: +90 531 692 25 78</a><a href="https://wa.me/639752611743" target="_blank" rel="noopener" style="color:#a9a9ac" data-i18n="footer.altLine">Alt hat: +63 975 261 1743</a></div>
 </footer>
 
 <div class="floating-contact" aria-label="Hızlı iletişim">
@@ -559,7 +560,7 @@ var I18N = {
       ogDesc:"Antalya Havalimanı – {r} transfer. Sabit fiyat, sigortalı araç, profesyonel şoför. Nakit ödeme.",
       ogLocale:"tr_TR"
     },
-    nav:{ services:"Hizmetler", routes:"Güzergâhlar", fleet:"Araçlarımız", faq:"S.S.S." },
+    nav:{ services:"Hizmetler", routes:"Güzergâhlar", fleet:"Araçlarımız", faq:"S.S.S.", about:"Hakkımızda" },
     crumb:{ home:"Ana Sayfa", routes:"Güzergâhlar", current:"Havalimanı – {r} Transfer" },
     hero:{
       eyebrow:"ANTALYA HAVALİMANI TRANSFER",
@@ -626,7 +627,7 @@ var I18N = {
       ogDesc:"Antalya Airport – {r} transfer. Fixed price, insured vehicle, professional driver. Cash payment.",
       ogLocale:"en_US"
     },
-    nav:{ services:"Services", routes:"Routes", fleet:"Our Fleet", faq:"FAQ" },
+    nav:{ services:"Services", routes:"Routes", fleet:"Our Fleet", faq:"FAQ", about:"About Us" },
     crumb:{ home:"Home", routes:"Routes", current:"Airport – {r} Transfer" },
     hero:{
       eyebrow:"ANTALYA AIRPORT TRANSFER",
@@ -693,7 +694,7 @@ var I18N = {
       ogDesc:"Трансфер из аэропорта Анталии в {r}. Фиксированная цена, застрахованный автомобиль, оплата наличными.",
       ogLocale:"ru_RU"
     },
-    nav:{ services:"Услуги", routes:"Маршруты", fleet:"Автопарк", faq:"Вопросы" },
+    nav:{ services:"Услуги", routes:"Маршруты", fleet:"Автопарк", faq:"Вопросы", about:"О нас" },
     crumb:{ home:"Главная", routes:"Маршруты", current:"Аэропорт – {r} Трансфер" },
     hero:{
       eyebrow:"ТРАНСФЕР ИЗ АЭРОПОРТА АНТАЛИИ",
@@ -760,7 +761,7 @@ var I18N = {
       ogDesc:"Flughafentransfer Antalya – {r}. Festpreis, versichertes Fahrzeug, Barzahlung.",
       ogLocale:"de_DE"
     },
-    nav:{ services:"Leistungen", routes:"Routen", fleet:"Unsere Flotte", faq:"FAQ" },
+    nav:{ services:"Leistungen", routes:"Routen", fleet:"Unsere Flotte", faq:"FAQ", about:"Über uns" },
     crumb:{ home:"Startseite", routes:"Routen", current:"Flughafen – {r} Transfer" },
     hero:{
       eyebrow:"FLUGHAFENTRANSFER ANTALYA",
@@ -1139,5 +1140,6 @@ function renderPage(lang, routeKey){
   });
 })();
 </script>
+  <script src="/assets/site.js" defer></script>
 </body>
 </html>
