@@ -1,14 +1,42 @@
-name: Deploy to VPS
+name: Run Script and Deploy
 
 on:
   push:
     branches: [ main ]
+  workflow_dispatch: # Gives you a "Run workflow" button in the Actions tab
+
+# CRITICAL: This allows GitHub to push the generated files back to your repo
+permissions:
+  contents: write
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy via SSH
+      # 1. Get your code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Make your script executable
+      - name: Make script executable
+        run: chmod +x generate.sh
+
+      # 3. Run your script
+      - name: Run the script
+        run: ./generate.sh
+
+      # 4. Save the generated files back to the GitHub repo
+      - name: Commit and Push new files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git add .
+          # This line prevents an error if the script didn't change anything
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-generated files [skip ci]"
+          git push
+
+      # 5. Tell your server to pull the newly generated files
+      - name: Deploy to VPS
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.VPS_HOST }}
