@@ -38,9 +38,9 @@ window.WA_NUMBER = "905316922578";
 <link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/">
 
 <link rel="manifest" href="/manifest.webmanifest">
-<link rel="icon" type="image/png" href="/logo.png">
-<link rel="shortcut icon" href="/logo.png">
-<link rel="apple-touch-icon" href="/logo.png">
+<link rel="icon" type="image/x-icon" href="/logo.ico">
+<link rel="shortcut icon" href="/logo.ico">
+<link rel="apple-touch-icon" href="/logo.ico">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Antalya Korsan">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
