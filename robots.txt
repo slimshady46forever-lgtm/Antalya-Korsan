@@ -1,0 +1,35 @@
+# Antalya Korsan VIP Transfer — robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /build.php
+Disallow: /build.py
+Disallow: /build-blog.php
+
+# AI assistants / LLM crawlers — allowed (helps them describe the business)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Point to sitemap
+Sitemap: https://antalyakorsan.com/sitemap.xml

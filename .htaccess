@@ -1,0 +1,7 @@
+# Custom 404 page
+ErrorDocument 404 /404.html
+
+# Correct MIME types
+AddType application/xml .xml
+AddType text/plain .txt
+AddType application/manifest+json .webmanifest

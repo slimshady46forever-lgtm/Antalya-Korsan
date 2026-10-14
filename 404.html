@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101114">
+<title id="pageTitle">Sayfa Bulunamadı (404) | Antalya Korsan VIP Transfer</title>
+<meta name="robots" content="noindex,follow">
+<link rel="icon" type="image/png" href="/logo.png">
+<link rel="shortcut icon" href="/logo.png">
+<link rel="apple-touch-icon" href="/logo.png">
+<style>
+:root{--yellow:#ffcc00;--muted:#a9a9ac}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:#101114;color:#fff;font-family:Arial,Helvetica,sans-serif;min-height:100vh;display:flex;flex-direction:column;line-height:1.65;overflow-x:hidden}
+a{text-decoration:none;color:inherit}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+body:before{content:"";position:fixed;inset:0;background-image:linear-gradient(rgba(255,204,0,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,204,0,.03) 1px,transparent 1px);background-size:48px 48px;pointer-events:none;z-index:0;-webkit-mask-image:radial-gradient(ellipse at 50% 40%,#000 0%,transparent 75%);mask-image:radial-gradient(ellipse at 50% 40%,#000 0%,transparent 75%)}
+.wrap{max-width:720px;margin:0 auto;padding:60px 24px 80px;text-align:center;width:100%;position:relative;z-index:1;flex:1;display:flex;flex-direction:column;justify-content:center}
+.lang-picker{position:fixed;top:24px;right:16px;z-index:100}
+.lang-picker select{appearance:none;-webkit-appearance:none;-moz-appearance:none;background:#1c1d21;color:#fff;border:1px solid #333;border-radius:10px;padding:10px 34px 10px 14px;font:inherit;font-size:13px;font-weight:800;letter-spacing:.5px;cursor:pointer;outline:none;transition:border-color .2s,box-shadow .2s}
+.lang-picker select:hover{border-color:#ffcc00}
+.lang-picker select:focus{border-color:#ffcc00;box-shadow:0 0 0 3px #ffcc0025}
+.lang-picker select option{background:#1c1d21;color:#fff}
+.lang-picker:after{content:"▾";position:absolute;right:12px;top:50%;transform:translateY(-50%);color:#ffcc00;pointer-events:none;font-size:11px}
+.code-wrap{position:relative;display:inline-block;margin:8px 0 4px}
+.code{font-size:clamp(80px,16vw,140px);font-weight:900;color:var(--yellow);line-height:.9;letter-spacing:-6px;position:relative;z-index:2;animation:codeFloat 6s ease-in-out infinite;text-shadow:0 0 40px rgba(255,204,0,.25)}
+.code .zero{display:inline-block;animation:zeroSpin 12s linear infinite}
+@keyframes codeFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes zeroSpin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.code-glow{position:absolute;inset:-20px -40px;background:radial-gradient(ellipse at center,rgba(255,204,0,.22) 0%,transparent 65%);z-index:1;animation:glowPulse 3s ease-in-out infinite;pointer-events:none}
+@keyframes glowPulse{0%,100%{opacity:.6;transform:scale(1)}50%{opacity:1;transform:scale(1.05)}}
+.eyebrow{color:var(--yellow);font-weight:800;letter-spacing:3px;text-transform:uppercase;font-size:12px;display:inline-flex;align-items:center;gap:10px;margin-bottom:6px}
+.eyebrow:before,.eyebrow:after{content:"";width:22px;height:1px;background:var(--yellow);opacity:.4}
+h1{font-size:clamp(20px,3.5vw,28px);margin:14px 0 10px;font-weight:900;letter-spacing:-.3px}
+p.msg{color:#c6c6ca;line-height:1.75;margin:0 auto 30px;font-size:15px;max-width:520px}
+img.hero{width:100%;max-width:480px;border-radius:14px;margin:0 auto 34px;display:block;box-shadow:0 20px 60px #0009;animation:imgFloat 7s ease-in-out infinite}
+@keyframes imgFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:15px 24px;border-radius:10px;font-weight:800;font-size:14px;font-family:inherit;cursor:pointer;transition:.25s;border:1px solid transparent;text-decoration:none}
+.btn-primary{background:var(--yellow);color:#101114;border-color:var(--yellow)}
+.btn-primary:hover{background:#ffe061;transform:translateY(-2px);box-shadow:0 8px 24px rgba(255,204,0,.35)}
+.btn-outline{background:transparent;color:#fff;border-color:#555}
+.btn-outline:hover{border-color:var(--yellow);color:var(--yellow);transform:translateY(-2px)}
+.btn-wa{background:#18cf66;color:#04160b;border-color:#18cf66}
+.btn-wa:hover{background:#22e578;transform:translateY(-2px);box-shadow:0 10px 30px rgba(24,207,102,.35)}
+.btn-row{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-bottom:16px}
+.divider{display:flex;align-items:center;gap:16px;max-width:320px;margin:22px auto;color:#666;font-size:12px;letter-spacing:2px;text-transform:uppercase}
+.divider:before,.divider:after{content:"";flex:1;height:1px;background:#2c2d32}
+.quick-links{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:26px 0 0}
+.quick-links a{display:inline-flex;align-items:center;gap:6px;padding:9px 14px;background:#1b1c20;border:1px solid #2c2d32;border-radius:100px;font-size:12px;font-weight:700;color:#c6c6ca;transition:.2s}
+.quick-links a:hover{border-color:var(--yellow);color:var(--yellow);transform:translateY(-1px)}
+.brand{display:inline-flex;align-items:center;gap:10px;margin-top:44px;color:#fff;font-weight:900;font-size:12px;letter-spacing:.5px;opacity:.55;transition:opacity .25s}
+.brand:hover{opacity:1}
+.brand img{width:32px;height:32px;border-radius:50%;object-fit:contain}
+.brand b{color:var(--yellow)}
+footer.contact-footer{padding:30px 20px;text-align:center;border-top:1px solid #1c1d21;background:#0d0e10;position:relative;z-index:1}
+footer.contact-footer .footer-phones{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;font-size:13px;margin-bottom:10px}
+footer.contact-footer .primary{color:var(--yellow);font-weight:800}
+footer.contact-footer .alt{color:#a9a9ac;font-weight:600}
+footer.contact-footer .copyright{color:#666;font-size:11px;letter-spacing:.4px}
+@media(max-width:600px){
+  .wrap{padding:40px 20px 60px}
+  .code{letter-spacing:-4px}
+  .lang-picker{top:14px;right:12px}
+  .btn{flex:1;min-width:140px}
+  .btn-row{gap:8px}
+  img.hero{max-width:100%}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+</head>
+<body>
+
+<div class="lang-picker">
+  <label for="langPicker" class="sr-only">Dil / Language</label>
+  <select id="langPicker" aria-label="Dil / Language">
+    <option value="tr">🇹🇷 TR</option>
+    <option value="en">🇬🇧 EN</option>
+    <option value="ru">🇷🇺 RU</option>
+    <option value="de">🇩🇪 DE</option>
+  </select>
+</div>
+
+<div class="wrap">
+  <div class="eyebrow" id="eyebrow">Hata 404</div>
+  <div class="code-wrap">
+    <div class="code-glow"></div>
+    <div class="code">4<span class="zero">0</span>4</div>
+  </div>
+  <h1 id="title">Rotadan çıktınız gibi görünüyor</h1>
+  <p class="msg" id="msg">Sayfa taşınmış, adı değişmiş veya hiç var olmamış olabilir. Endişelenmeyin — aşağıdaki bağlantılarla hızlıca doğru rotayı bulabilirsiniz.</p>
+  <img class="hero" src="/antalyakorsan-turtles.jpg" alt="Antalya Korsan" loading="eager">
+  <div class="btn-row">
+    <a class="btn btn-primary" href="/" id="btnHome">← Ana Sayfaya Dön</a>
+    <a class="btn btn-outline" href="/#guzergahlar" id="btnRoutes">Güzergâhlar →</a>
+  </div>
+  <div class="divider" id="divider">veya</div>
+  <div class="btn-row">
+    <a class="btn btn-wa" href="https://wa.me/905316922578?text=Merhaba%2C%20bir%20sayfada%20tak%C4%B1ld%C4%B1m%2C%20yard%C4%B1mc%C4%B1%20olur%20musunuz%3F" id="btnWa" target="_blank" rel="noopener">💬 WhatsApp'tan Sor</a>
+  </div>
+  <div class="quick-links">
+    <a href="/#hizmetler" id="lnkServices">🏨 Hizmetler</a>
+    <a href="/#fiyatlar" id="lnkPrices">💰 Fiyat Hesapla</a>
+    <a href="/blog/" id="lnkBlog">📖 Blog</a>
+    <a href="/hakkimizda.html" id="lnkAbout">👋 Hakkımızda</a>
+  </div>
+  <a class="brand" href="/">
+    <img src="/logo.png" alt="Antalya Korsan">
+    <span>ANTALYA <b>KORSAN</b> VIP TRANSFER</span>
+  </a>
+</div>
+
+<footer class="contact-footer">
+  <div class="footer-phones">
+    <a class="primary" href="https://wa.me/905316922578" target="_blank" rel="noopener">WhatsApp: +90 531 692 25 78</a>
+    <a class="alt" href="https://wa.me/639752611743" target="_blank" rel="noopener">Alt hat: +63 975 261 1743</a>
+  </div>
+  <div class="copyright">© <span id="year">2026</span> Antalya Korsan VIP Transfer</div>
+</footer>
+
+<script>
+(function(){
+  var L = {
+    tr:{
+      eyebrow:"Hata 404",
+      title:"Rotadan çıktınız gibi görünüyor",
+      msg:"Sayfa taşınmış, adı değişmiş veya hiç var olmamış olabilir. Endişelenmeyin — aşağıdaki bağlantılarla hızlıca doğru rotayı bulabilirsiniz.",
+      btnHome:"← Ana Sayfaya Dön", btnRoutes:"Güzergâhlar →", divider:"veya",
+      btnWa:"💬 WhatsApp'tan Sor",
+      lnkServices:"🏨 Hizmetler", lnkPrices:"💰 Fiyat Hesapla", lnkBlog:"📖 Blog", lnkAbout:"👋 Hakkımızda",
+      docTitle:"Sayfa Bulunamadı (404) | Antalya Korsan VIP Transfer"
+    },
+    en:{
+      eyebrow:"Error 404",
+      title:"Looks like you're off the route",
+      msg:"The page may have been moved, renamed, or never existed. Don't worry — use the links below to find the right route fast.",
+      btnHome:"← Back to Home", btnRoutes:"Routes →", divider:"or",
+      btnWa:"💬 Ask on WhatsApp",
+      lnkServices:"🏨 Services", lnkPrices:"💰 Fare Calculator", lnkBlog:"📖 Blog", lnkAbout:"👋 About Us",
+      docTitle:"Page Not Found (404) | Antalya Korsan VIP Transfer"
+    },
+    ru:{
+      eyebrow:"Ошибка 404",
+      title:"Похоже, вы сбились с маршрута",
+      msg:"Возможно, страница была перемещена, переименована или никогда не существовала. Воспользуйтесь ссылками ниже.",
+      btnHome:"← На главную", btnRoutes:"Маршруты →", divider:"или",
+      btnWa:"💬 Спросить в WhatsApp",
+      lnkServices:"🏨 Услуги", lnkPrices:"💰 Калькулятор", lnkBlog:"📖 Блог", lnkAbout:"👋 О нас",
+      docTitle:"Страница не найдена (404) | Antalya Korsan VIP Transfer"
+    },
+    de:{
+      eyebrow:"Fehler 404",
+      title:"Sieht aus, als wären Sie vom Kurs abgekommen",
+      msg:"Die Seite wurde möglicherweise verschoben oder hat nie existiert. Über die folgenden Links finden Sie die richtige Route.",
+      btnHome:"← Zur Startseite", btnRoutes:"Routen →", divider:"oder",
+      btnWa:"💬 Frag uns auf WhatsApp",
+      lnkServices:"🏨 Leistungen", lnkPrices:"💰 Preis berechnen", lnkBlog:"📖 Blog", lnkAbout:"👋 Über uns",
+      docTitle:"Seite nicht gefunden (404) | Antalya Korsan VIP Transfer"
+    }
+  };
+  function detect(){
+    var u=new URLSearchParams(location.search).get('lang');
+    if(u&&L[u]) return u;
+    var s=localStorage.getItem('lang');
+    if(s&&L[s]) return s;
+    var n=(navigator.language||'tr').slice(0,2).toLowerCase();
+    return L[n]?n:'tr';
+  }
+  function apply(lang){
+    if(!L[lang]) lang='tr';
+    var d=L[lang];
+    document.documentElement.lang=lang;
+    document.title=d.docTitle;
+    document.getElementById('pageTitle').textContent=d.docTitle;
+    document.getElementById('eyebrow').textContent=d.eyebrow;
+    document.getElementById('title').textContent=d.title;
+    document.getElementById('msg').textContent=d.msg;
+    document.getElementById('btnHome').textContent=d.btnHome;
+    document.getElementById('btnRoutes').textContent=d.btnRoutes;
+    document.getElementById('divider').textContent=d.divider;
+    document.getElementById('btnWa').textContent=d.btnWa;
+    document.getElementById('lnkServices').textContent=d.lnkServices;
+    document.getElementById('lnkPrices').textContent=d.lnkPrices;
+    document.getElementById('lnkBlog').textContent=d.lnkBlog;
+    document.getElementById('lnkAbout').textContent=d.lnkAbout;
+    document.getElementById('langPicker').value=lang;
+    try{localStorage.setItem('lang',lang);}catch(e){}
+  }
+  document.getElementById('langPicker').addEventListener('change',function(e){
+    apply(e.target.value);
+    var url=new URL(location.href);
+    if(e.target.value==='tr') url.searchParams.delete('lang');
+    else url.searchParams.set('lang',e.target.value);
+    history.replaceState({},'',url.toString());
+  });
+  document.getElementById('year').textContent=new Date().getFullYear();
+  apply(detect());
+})();
+</script>
+</body>
+</html>
