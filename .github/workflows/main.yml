@@ -1,47 +1,60 @@
-name: Run Script and Deploy
+name: Generate routes and deploy
 
 on:
   push:
     branches: [ main ]
-  workflow_dispatch: # Gives you a "Run workflow" button in the Actions tab
+    paths:
+      - 'scripts/generate.sh'
+      - 'index.html'
+      - 'sitemap.xml'
+      - 'route.css'
+      - 'assets/**'
+  workflow_dispatch:
 
-# CRITICAL: This allows GitHub to push the generated files back to your repo
 permissions:
   contents: write
+
+concurrency:
+  group: generate-routes
+  cancel-in-progress: true
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      # 1. Get your code
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Make your script executable
       - name: Make script executable
-        run: chmod +x generate.sh
+        run: chmod +x scripts/generate.sh
 
-      # 3. Run your script
-      - name: Run the script
-        run: ./scripts/generate.sh
+      - name: Run generator (deploy mode)
+        run: ./scripts/generate.sh --deploy
 
-      # 4. Save the generated files back to the GitHub repo
-      - name: Commit and Push new files
+      - name: Commit and push generated files
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions Bot"
-          git add .
-          # This line prevents an error if the script didn't change anything
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-generated files [skip ci]"
+
+          git add '*.html' sitemap.xml
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Auto-generate route pages + sitemap [skip actions]"
           git push
 
-      # 5. Tell your server to pull the newly generated files
       - name: Deploy to VPS
-        uses: appleboy/ssh-action@master
+        uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.VPS_HOST }}
           username: root
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
+            set -e
             cd /var/www/antalyakorsan
-            git pull origin main
+            git fetch origin main
+            git reset --hard origin/main
+            echo "Deployed $(git rev-parse --short HEAD)"
