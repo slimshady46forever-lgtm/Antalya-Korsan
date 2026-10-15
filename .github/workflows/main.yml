@@ -23,7 +23,7 @@ jobs:
 
       # 3. Run your script
       - name: Run the script
-        run: ./generate.sh
+        run: ./scripts/generate.sh
 
       # 4. Save the generated files back to the GitHub repo
       - name: Commit and Push new files
