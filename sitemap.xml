@@ -22,293 +22,29 @@
        ============================================================ -->
 
   <!-- Kundu -->
-  <url>
-    <loc>https://antalyakorsan.com/kundu.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/kundu.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=kundu&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=kundu&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=kundu&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/kundu.html"/>
-    <priority>0.9</priority>
-  </url>
-
   <!-- Lara -->
-  <url>
-    <loc>https://antalyakorsan.com/lara.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/lara.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=lara&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=lara&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=lara&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/lara.html"/>
-    <priority>0.9</priority>
-  </url>
-
   <!-- Side -->
-  <url>
-    <loc>https://antalyakorsan.com/side.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/side.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=side&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=side&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=side&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/side.html"/>
-    <priority>0.9</priority>
-  </url>
-
   <!-- Belek -->
-  <url>
-    <loc>https://antalyakorsan.com/belek.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/belek.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=belek&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=belek&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=belek&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/belek.html"/>
-    <priority>0.9</priority>
-  </url>
-
   <!-- Kemer -->
-  <url>
-    <loc>https://antalyakorsan.com/kemer.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/kemer.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=kemer&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=kemer&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=kemer&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/kemer.html"/>
-    <priority>0.9</priority>
-  </url>
-
   <!-- Alanya -->
-  <url>
-    <loc>https://antalyakorsan.com/alanya.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/alanya.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=alanya&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=alanya&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=alanya&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/alanya.html"/>
-    <priority>0.9</priority>
-  </url>
-
   <!-- Manavgat -->
-  <url>
-    <loc>https://antalyakorsan.com/manavgat.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/manavgat.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=manavgat&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=manavgat&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=manavgat&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/manavgat.html"/>
-    <priority>0.9</priority>
-  </url>
-
   <!-- Konyaaltı -->
-  <url>
-    <loc>https://antalyakorsan.com/konyaalti.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/konyaalti.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=konyaalti&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=konyaalti&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=konyaalti&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/konyaalti.html"/>
-    <priority>0.8</priority>
-  </url>
-
   <!-- Kaleiçi -->
-  <url>
-    <loc>https://antalyakorsan.com/kaleici.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/kaleici.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=kaleici&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=kaleici&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=kaleici&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/kaleici.html"/>
-    <priority>0.8</priority>
-  </url>
-
   <!-- Muratpaşa -->
-  <url>
-    <loc>https://antalyakorsan.com/muratpasa.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/muratpasa.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=muratpasa&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=muratpasa&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=muratpasa&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/muratpasa.html"/>
-    <priority>0.7</priority>
-  </url>
-
   <!-- Kepez -->
-  <url>
-    <loc>https://antalyakorsan.com/kepez.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/kepez.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=kepez&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=kepez&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=kepez&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/kepez.html"/>
-    <priority>0.7</priority>
-  </url>
-
   <!-- Döşemealtı -->
-  <url>
-    <loc>https://antalyakorsan.com/dosemealti.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/dosemealti.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=dosemealti&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=dosemealti&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=dosemealti&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/dosemealti.html"/>
-    <priority>0.7</priority>
-  </url>
-
   <!-- Aksu -->
-  <url>
-    <loc>https://antalyakorsan.com/aksu.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/aksu.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=aksu&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=aksu&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=aksu&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/aksu.html"/>
-    <priority>0.7</priority>
-  </url>
-
   <!-- Serik -->
-  <url>
-    <loc>https://antalyakorsan.com/serik.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/serik.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=serik&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=serik&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=serik&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/serik.html"/>
-    <priority>0.8</priority>
-  </url>
-
   <!-- Kızılağaç -->
-  <url>
-    <loc>https://antalyakorsan.com/kizilagac.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/kizilagac.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=kizilagac&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=kizilagac&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=kizilagac&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/kizilagac.html"/>
-    <priority>0.7</priority>
-  </url>
-
   <!-- Titreyengöl -->
-  <url>
-    <loc>https://antalyakorsan.com/titreyengol.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/titreyengol.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=titreyengol&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=titreyengol&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=titreyengol&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/titreyengol.html"/>
-    <priority>0.7</priority>
-  </url>
-
   <!-- Okurcalar -->
-  <url>
-    <loc>https://antalyakorsan.com/okurcalar.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/okurcalar.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=okurcalar&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=okurcalar&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=okurcalar&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/okurcalar.html"/>
-    <priority>0.7</priority>
-  </url>
-
   <!-- Avsallar -->
-  <url>
-    <loc>https://antalyakorsan.com/avsallar.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/avsallar.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=avsallar&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=avsallar&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=avsallar&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/avsallar.html"/>
-    <priority>0.7</priority>
-  </url>
-
   <!-- Konaklı -->
-  <url>
-    <loc>https://antalyakorsan.com/konakli.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/konakli.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=konakli&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=konakli&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=konakli&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/konakli.html"/>
-    <priority>0.7</priority>
-  </url>
-
   <!-- Mahmutlar -->
-  <url>
-    <loc>https://antalyakorsan.com/mahmutlar.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/mahmutlar.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=mahmutlar&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=mahmutlar&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=mahmutlar&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/mahmutlar.html"/>
-    <priority>0.7</priority>
-  </url>
-
   <!-- Gazipaşa -->
-  <url>
-    <loc>https://antalyakorsan.com/gazipasa.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/gazipasa.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=gazipasa&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=gazipasa&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=gazipasa&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/gazipasa.html"/>
-    <priority>0.7</priority>
-  </url>
-
   <!-- Belconti -->
-  <url>
-    <loc>https://antalyakorsan.com/belconti.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/belconti.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=belconti&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=belconti&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=belconti&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/belconti.html"/>
-    <priority>0.6</priority>
-  </url>
-
   <!-- Beldibi -->
-  <url>
-    <loc>https://antalyakorsan.com/beldibi.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/beldibi.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=beldibi&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=beldibi&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=beldibi&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/beldibi.html"/>
-    <priority>0.6</priority>
-  </url>
-
   <!-- Göynük -->
-  <url>
-    <loc>https://antalyakorsan.com/goynuk.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/goynuk.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=goynuk&amp;lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=goynuk&amp;lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=goynuk&amp;lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/goynuk.html"/>
-    <priority>0.6</priority>
-  </url>
-
   <!-- ============================================================
        BLOG INDEX — TR / EN / DE / RU
        ============================================================ -->
@@ -686,4 +422,316 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Kundu -->
+  <url>
+    <loc>https://antalyakorsan.com/kundu.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/kundu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=kundu&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=kundu&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=kundu&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/kundu.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Lara -->
+  <url>
+    <loc>https://antalyakorsan.com/lara.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/lara.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=lara&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=lara&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=lara&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/lara.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Side -->
+  <url>
+    <loc>https://antalyakorsan.com/side.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/side.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=side&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=side&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=side&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/side.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Belek -->
+  <url>
+    <loc>https://antalyakorsan.com/belek.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/belek.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=belek&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=belek&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=belek&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/belek.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Kemer -->
+  <url>
+    <loc>https://antalyakorsan.com/kemer.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/kemer.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=kemer&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=kemer&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=kemer&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/kemer.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Alanya -->
+  <url>
+    <loc>https://antalyakorsan.com/alanya.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/alanya.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=alanya&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=alanya&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=alanya&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/alanya.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Manavgat -->
+  <url>
+    <loc>https://antalyakorsan.com/manavgat.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/manavgat.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=manavgat&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=manavgat&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=manavgat&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/manavgat.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Konyaaltı -->
+  <url>
+    <loc>https://antalyakorsan.com/konyaalti.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/konyaalti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=konyaalti&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=konyaalti&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=konyaalti&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/konyaalti.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Kaleiçi -->
+  <url>
+    <loc>https://antalyakorsan.com/kaleici.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/kaleici.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=kaleici&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=kaleici&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=kaleici&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/kaleici.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Muratpaşa -->
+  <url>
+    <loc>https://antalyakorsan.com/muratpasa.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/muratpasa.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=muratpasa&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=muratpasa&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=muratpasa&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/muratpasa.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Kepez -->
+  <url>
+    <loc>https://antalyakorsan.com/kepez.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/kepez.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=kepez&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=kepez&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=kepez&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/kepez.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Döşemealtı -->
+  <url>
+    <loc>https://antalyakorsan.com/dosemealti.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/dosemealti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=dosemealti&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=dosemealti&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=dosemealti&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/dosemealti.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Aksu -->
+  <url>
+    <loc>https://antalyakorsan.com/aksu.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/aksu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=aksu&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=aksu&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=aksu&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/aksu.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Serik -->
+  <url>
+    <loc>https://antalyakorsan.com/serik.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/serik.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=serik&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=serik&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=serik&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/serik.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Kızılağaç -->
+  <url>
+    <loc>https://antalyakorsan.com/kizilagac.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/kizilagac.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=kizilagac&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=kizilagac&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=kizilagac&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/kizilagac.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Titreyengöl -->
+  <url>
+    <loc>https://antalyakorsan.com/titreyengol.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/titreyengol.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=titreyengol&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=titreyengol&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=titreyengol&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/titreyengol.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Okurcalar -->
+  <url>
+    <loc>https://antalyakorsan.com/okurcalar.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/okurcalar.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=okurcalar&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=okurcalar&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=okurcalar&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/okurcalar.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Avsallar -->
+  <url>
+    <loc>https://antalyakorsan.com/avsallar.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/avsallar.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=avsallar&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=avsallar&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=avsallar&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/avsallar.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Konaklı -->
+  <url>
+    <loc>https://antalyakorsan.com/konakli.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/konakli.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=konakli&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=konakli&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=konakli&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/konakli.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Mahmutlar -->
+  <url>
+    <loc>https://antalyakorsan.com/mahmutlar.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/mahmutlar.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=mahmutlar&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=mahmutlar&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=mahmutlar&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/mahmutlar.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Gazipaşa -->
+  <url>
+    <loc>https://antalyakorsan.com/gazipasa.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/gazipasa.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=gazipasa&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=gazipasa&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=gazipasa&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/gazipasa.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Belconti -->
+  <url>
+    <loc>https://antalyakorsan.com/belconti.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/belconti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=belconti&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=belconti&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=belconti&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/belconti.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Beldibi -->
+  <url>
+    <loc>https://antalyakorsan.com/beldibi.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/beldibi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=beldibi&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=beldibi&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=beldibi&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/beldibi.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Göynük -->
+  <url>
+    <loc>https://antalyakorsan.com/goynuk.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://antalyakorsan.com/goynuk.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://antalyakorsan.com/transfer.html?rota=goynuk&amp;lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://antalyakorsan.com/transfer.html?rota=goynuk&amp;lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://antalyakorsan.com/transfer.html?rota=goynuk&amp;lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://antalyakorsan.com/goynuk.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
